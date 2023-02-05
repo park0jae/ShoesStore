@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.start {
+  opacity : 0
+}
+.end {
+  opacity : 1;
+  transition : opacity 0.5s;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.barList{
+  margin-left: 0px;
+}
+
+.main-bg{
+  height: 300px;
+  background-image: url('./img/main.jpeg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+.link{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.recentProduct{
+  position: absolute;
+  top:10%;
+  left: 80%;
+  color:white;
+}
+
+.recent {
+  border-bottom: 1px solid white;
+
 }
